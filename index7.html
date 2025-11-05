@@ -45,10 +45,10 @@
       position: absolute;
       z-index: 2;
       /* percentuali calcolate rispetto a 1280x2534 */
-      top: 28.4%;
-      left: 22.7%;
-      width: 54.7%;
-      height: 27.6%;
+      top: 36%;
+      left: 25.7%;
+      width: 50.7%;
+      height: 24.6%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -69,7 +69,7 @@
     #btn-genera {
       position: absolute;
       z-index: 3;
-      top: 61.2%;
+      top: 65.2%;
       left: 18.75%;
       width: 62.5%;
       height: 4.74%;
@@ -105,12 +105,17 @@
   </div>
 
   <script>
+    //mio:
+    //const clientId = "44383";
+    //const centerId = "1762038000000";  
+    
+    //simo
     const clientId = "51018";
     const centerId = "1769468400000";
 
     const TYPE_NUMBER = 4;   // versione 4 (33x33)
     const EC_LEVEL   = "M";  // EC level M
-
+    //Nella libreria che stiamo usando li passi proprio come "L", "M", "Q", "H".
     const qrcodeContainer = document.getElementById("qrcode");
     const btnGenera       = document.getElementById("btn-genera");
 
